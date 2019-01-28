@@ -2,7 +2,7 @@
 
 i = int(0)
 
-genres = ["", "Puzzle", "Action", "Role-playing", "Sandbox", "Survival",  "Adventure", "MOBA", "Battle-royale", "First" + "-Person" + "-Shooter", "Third-Person-Shooter",  "Platformer", "Tactical", "Turn-based-strategy", "Simulation", "Massive Multi-player Online", "Strategy", "Sport", "Stealth"]
+genres = ["", "Puzzle", "Action", "Role-playing", "Sandbox", "Survival",  "Adventure", "MOBA", "Battle-royale", "First-Person-Shooter", "Third-Person-Shooter",  "Platformer", "Tactical", "Turn-based-strategy", "Simulation", "Massive Multi-player Online", "Strategy", "Sport", "Stealth"]
 mode = ["Single-player", "Multi-player", "Single-player and Multi-player"]
 
 games = [
@@ -50,14 +50,13 @@ while True:
     if choice == 1:
         print("What game genre do you want to play?")
         i = 0
-        list1 = games
-        list2 = games[][]
-        while i < len(list1):
+        list = games
+        while i < len(list):
             if i < 10:
-                print("["+str(i+1)+"]  -  " + list2[i][0])
+                print("["+str(i+1)+"]  -  " + list[i][0])
             if 10 < i < 100:
-                print("["+str(i+1)+"] -  " + list2[i][0])
-            if i >len(list1):
+                print("["+str(i+1)+"] -  " + list[i][0])
+            if i >len(list):
                 break
             i = i + 1
 
@@ -67,14 +66,13 @@ while True:
     elif choice == 2:
         print("What game mode do you want to play?")
         i = 0
-        list1 = mode
-        list2 = mode[]
-        while i < len(list1):
+        list = mode
+        while i < len(list):
             if i < 10:
-                print("[" + str(i + 1) + "]  -  " + list2[i][0])
+                print("[" + str(i + 1) + "]  -  " + list[i][0])
             if 10 < i < 100:
-                print("[" + str(i + 1) + "] -  " + list2[i][0])
-            if i > len(list1):
+                print("[" + str(i + 1) + "] -  " + list[i][0])
+            if i > len(list):
                 break
             i = i + 1
 
